@@ -1,0 +1,16 @@
+{
+  "name": "250319--projetowebvariaveis",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Projeto Web - BackEnd (sem framework) com entradas de variaveis",
+  "dependencies": {
+    "chalk": "^5.4.1"
+  }
+}

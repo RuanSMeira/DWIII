@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado da Média</title>
+</head>
+<body>
+
+<h1>Resultado da Média</h1>
+
+<p th:text="'Nota da P1: ' + ${media.getP1()}"></p>
+<p th:text="'Nota da P2: ' + ${media.getP2()}"></p>
+<p th:text="'Média: ' + ${media.getValorMedia()}"></p>
+<a href="/formMedia">Calcule outra média</a>
+
+</body>
+</html>
